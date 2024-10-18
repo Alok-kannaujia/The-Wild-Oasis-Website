@@ -9,7 +9,6 @@ const nextConfig = {
         pathname: "/storage/v1/object/public/cabin-images/**",
       },
     ],
-    "rules": { "react/no-unescaped-entities": 0 }
   },
   // output: "export",
 };
