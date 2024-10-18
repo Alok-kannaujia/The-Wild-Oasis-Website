@@ -17,7 +17,6 @@ function UpdateProfileForm({ guest, children }) {
       <div className="space-y-2">
         <label>Full name</label>
         <input
-          disabled
           defaultValue={fullName}
           name="fullName"
           className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm disabled:cursor-not-allowed disabled:bg-gray-600 disabled:text-gray-400"
@@ -50,6 +49,7 @@ function UpdateProfileForm({ guest, children }) {
       <div className="space-y-2">
         <label htmlFor="nationalID">National ID number</label>
         <input
+          required
           defaultValue={nationalID}
           name="nationalID"
           className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm"
